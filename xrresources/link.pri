@@ -1,0 +1,11 @@
+LIBS += -L$$XRRESOURCES_OUT -lxrresources
+
+INCLUDEPATH += $$XRRESOURCES_DIR
+DEPENDPATH += $$XRRESOURCES_DIR
+
+opt {
+	QMAKE_RPATHDIR *= $$LIB_PATH
+} else {
+	QMAKE_RPATHDIR += $$LIB_PATH/xrresources
+}
+

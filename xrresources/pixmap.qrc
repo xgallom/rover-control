@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pixmap/splash.png</file>
+        <file>pixmap/icon-connected-16.png</file>
+        <file>pixmap/icon-disconnected-16.png</file>
+        <file>pixmap/icon-connected-no-data-16.png</file>
+        <file>pixmap/icon-data-transfer-16.png</file>
+        <file>pixmap/icon-incoming-data-16.png</file>
+        <file>pixmap/icon-outgoing-data-16.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+LIBS += -L$$XRGUI_OUT -lxrgui
+
+INCLUDEPATH += $$XRGUI_DIR
+DEPENDPATH += $$XRGUI_DIR
+
+opt {
+	QMAKE_RPATHDIR *= $$LIB_PATH
+} else {
+	QMAKE_RPATHDIR += $$LIB_PATH/xrgui
+}
+

@@ -1,0 +1,7 @@
+include($$XRRESOURCES_DIR/link.pri)
+include($$XRCORE_DIR/link.pri)
+include($$XRGUI_DIR/link.pri)
+include($$MOD_DIR/xrsettings/link.pri)
+include($$MOD_DIR/xrserialrover/link.pri)
+include($$MOD_DIR/xrmainwindow/link.pri)
+include($$MOD_DIR/xrinfo/link.pri)
